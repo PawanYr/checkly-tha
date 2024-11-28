@@ -10,6 +10,7 @@ const alertChannels = [emailChannel]
 
 new BrowserCheck('wait-for-an-element-to-become-visible', {
   name: 'Wait for an element to become visible',
+  alertChannels,
   activated: true,
   muted: false,
   shouldFail: false,
