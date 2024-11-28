@@ -6,13 +6,13 @@ import { AlertEscalationBuilder, RetryStrategyBuilder } from 'checkly/constructs
  */
 const config = defineConfig({
   /* A human friendly name for your project */
-  projectName: 'Advanced Example Project',
+  projectName: 'Checkly THA',
   /** A logical ID that needs to be unique across your Checkly account,
    * See https://www.checklyhq.com/docs/cli/constructs/ to learn more about logical IDs.
    */
-  logicalId: 'advanced-example-project',
+  logicalId: 'checkly-tha',
   /* An optional URL to your Git repo to be shown in your test sessions and resource activity log */
-  /* repoUrl: 'https://github.com/checkly/checkly-cli', */
+  /* repoUrl: 'https://github.com/PawanYr/checkly-tha', */
   /* Sets default values for Checks */
   checks: {
     /* A default for how often your Check should run in minutes */
