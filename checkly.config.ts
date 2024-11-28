@@ -12,7 +12,7 @@ const config = defineConfig({
    */
   logicalId: 'checkly-tha',
   /* An optional URL to your Git repo to be shown in your test sessions and resource activity log */
-  /* repoUrl: 'https://github.com/PawanYr/checkly-tha', */
+  repoUrl: 'https://github.com/PawanYr/checkly-tha',
   /* Sets default values for Checks */
   checks: {
     /* A default for how often your Check should run in minutes */
@@ -35,7 +35,7 @@ const config = defineConfig({
     playwrightConfig: {
       timeout: 30000,
       use: {
-        baseURL: 'https://www.danube-web.shop',
+        baseURL: 'https://www.example.com',
         viewport: { width: 1280, height: 720 },
       }
     },

@@ -11,6 +11,7 @@ const sendDefaults = {
 }
 
 export const emailChannel = new EmailAlertChannel('email-channel-1', {
+  // Your email address here
   address: 'me@pawanyerramilli.com',
   ...sendDefaults
 })
